@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/rectangle_8">
+
+    <ImageView
+        android:id="@+id/imgGrocery"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/pulse"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/txtGrocery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@id/imgGrocery"
+        android:layout_toRightOf="@id/imgGrocery"
+        tools:text="Pulses"
+        android:textAppearance="@style/pulses" />
+</RelativeLayout>
